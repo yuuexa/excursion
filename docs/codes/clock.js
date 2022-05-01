@@ -73,7 +73,7 @@ function draw()
 
 	// Digital Timer
 	drawCircle(centerX, centerY, 90, 0, 360, false, timerBg, 'fill', '50');
-	drawText(`${hr.toString().padStart(2, "0")}:${min.toString().padStart(2, "0")} ${amOrPm}`, canvas.width / 2 - 70, canvas.height / 2 + 17, '#ffffff', '35px');
+	drawText(`${hr.toString().padStart(2, "0")}:${min.toString().padStart(2, "0")} ${amOrPm}`, canvas.width / 2 - 80, canvas.height / 2 + 17, '#ffffff', '35px');
 
 	window.requestAnimationFrame(draw);
 }
