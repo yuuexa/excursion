@@ -176,7 +176,7 @@
   transition: all .3s;
 }
 .item p {
-  font-size: 20px;
+  font-size: 18px;
 }
 .item hr {
   margin-bottom: 15px;
@@ -225,7 +225,7 @@
 }
 .item h2 {
   padding: 90px 25px;
-  font-size: 35px;
+  font-size: 30px;
   color: #f2f2b0;
   text-shadow: 0 0 6px #f2c9ac;
 }
